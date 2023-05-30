@@ -1,0 +1,3 @@
+﻿AT_heritage_kacana = {
+	type = heritage
+}

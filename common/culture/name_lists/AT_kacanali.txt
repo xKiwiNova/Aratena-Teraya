@@ -100,8 +100,8 @@
 	
 	dynasty_of_location_prefix = "dynnp_no"
 	
-	patronym_suffix_male = "dynnpat_pref_sai"
-	patronym_suffix_female = "dynnpat_pref_sai"
+	patronym_prefix_male = "AT_dynnpat_pref_sai"
+	patronym_prefix_female = "AT_dynnpat_pref_sai"
 	always_use_patronym = no	
 
 	mercenary_names = {

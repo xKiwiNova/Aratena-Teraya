@@ -1,0 +1,175 @@
+AT_mound_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = temple_01
+		scope:holder.culture = {
+			has_cultural_tradition = AT_tradition_mound_builders
+		}
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	character_modifier = {
+		monthly_piety = 0.1
+		monthly_prestige = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+		county_opinion_add = 2
+		monthly_county_control_change_add = 0.1
+	}
+	
+	next_building = mound_02
+	type_icon = "icon_megalith.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		modifier = {
+			add = 500
+			scope:holder = {
+				OR = {
+					highest_held_title_tier = tier_barony
+					government_has_flag = government_is_theocracy
+					is_theocratic_lessee = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			free_building_slots <= 1
+		}
+	}
+}
+
+mound_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = temple_01
+		scope:holder.culture = {
+			has_cultural_tradition = AT_tradition_mound_builders
+		}
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	character_modifier = {
+		monthly_piety = 0.2
+		monthly_prestige = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+		county_opinion_add = 4
+		monthly_county_control_change_add = 0.2
+	}
+	
+	next_building = mound_03
+	ai_value = {
+		base = 9
+	}
+}
+
+mound_03 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = temple_01
+		scope:holder.culture = {
+			has_cultural_tradition = AT_tradition_mound_builders
+		}
+		culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_3_cost
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_prestige = 0.15
+	}
+	county_modifier = {
+		development_growth_factor = 0.15
+		county_opinion_add = 6
+		monthly_county_control_change_add = 0.3
+	}
+	
+	next_building = mound_04
+	ai_value = {
+		base = 9
+	}
+}
+
+mound_04 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = temple_02
+		scope:holder.culture = {
+			has_cultural_tradition = at_tradition_mound_builders
+		}
+		culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_4_cost
+	
+	character_modifier = {
+		monthly_piety = 0.4
+		monthly_prestige = 0.2
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		county_opinion_add = 8
+		monthly_county_control_change_add = 0.4
+	}
+	
+	next_building = mound_05
+	ai_value = {
+		base = 9
+	}
+}
+
+mound_05 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = temple_02
+		scope:holder.culture = {
+			has_cultural_tradition = at_tradition_mound_builders
+		}
+		culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	character_modifier = {
+		monthly_piety = 0.5
+		monthly_prestige = 0.25
+	}
+	county_modifier = {
+		development_growth_factor = 0.25
+		county_opinion_add = 10
+		monthly_county_control_change_add = 0.5
+	}
+	
+	next_building = mound_06
+	ai_value = {
+		base = 9
+	}
+}

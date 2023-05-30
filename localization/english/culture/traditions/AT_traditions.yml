@@ -1,0 +1,4 @@
+﻿l_english:
+AT_tradition_mound_builders_name:0 "Mound Builders"
+AT_tradition_mound_builders_desc:0 "This culture is characterized by the construction of extensive earthworks which serve important social, cultural, and political functions."
+cultural_parameter_can_construct_mounds:0 "Enables the construction of Earthen Mounds in holdings"
