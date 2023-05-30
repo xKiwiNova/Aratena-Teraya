@@ -1,0 +1,110 @@
+﻿AT_name_list_kacanali = {
+	cadet_dynasty_names = {
+		"dynn_Nastayi"
+		"dynn_Kuroshanti"
+		"dynn_Ashanati"
+		"dynn_Kesavati"
+		"dynn_Daiyashiti"
+		"dynn_Satuvati"
+		"dynn_Svatikanti"
+		"dynn_Sulavani"
+		"dynn_Amasakti"
+		"dynn_Adacharva"
+		"dynn_Xovatiya"
+		"dynn_Kesama"
+		"dynn_Chenaisha"
+		"dynn_Adirama"
+		"dynn_Zelaya"
+		"dynn_Vetaishanaya"
+		"dynn_Surasvana"
+		"dynn_Kaskita"
+		"dynn_Kasita"
+		"dynn_Xeneme"
+		"dynn_Eiyare"
+		"dynn_Rimaye"
+		"dynn_Inashate"
+		"dynn_Makiye"
+		"dynn_Kosvu"
+		"dynn_Atarasvu"
+		"dynn_Komusu"
+		"dynn_Joranu"
+		"dynn_Muyosu"
+		"dynn_Mandu"
+		"dynn_Usaliku"
+		"dynn_Satyavano"
+		"dynn_Make"
+		"dynn_Kado"
+		"dynn_Kadohicho"
+		"dynn_Sesuvo"
+		"dynn_Aokoshyo"
+	}
+
+	dynasty_names = {
+		"dynn_Nastayi"
+		"dynn_Kuroshanti"
+		"dynn_Ashanati"
+		"dynn_Kesavati"
+		"dynn_Daiyashiti"
+		"dynn_Satuvati"
+		"dynn_Svatikanti"
+		"dynn_Sulavani"
+		"dynn_Amasakti"
+		"dynn_Adacharva"
+		"dynn_Xovatiya"
+		"dynn_Kesama"
+		"dynn_Chenaisha"
+		"dynn_Adirama"
+		"dynn_Zelaya"
+		"dynn_Vetaishanaya"
+		"dynn_Surasvana"
+		"dynn_Kaskita"
+		"dynn_Kasita"
+		"dynn_Xeneme"
+		"dynn_Eiyare"
+		"dynn_Rimaye"
+		"dynn_Inashate"
+		"dynn_Makiye"
+		"dynn_Kosvu"
+		"dynn_Atarasvu"
+		"dynn_Komusu"
+		"dynn_Joranu"
+		"dynn_Muyosu"
+		"dynn_Mandu"
+		"dynn_Usaliku"
+		"dynn_Satyavano"
+		"dynn_Make"
+		"dynn_Kado"
+		"dynn_Kadohicho"
+		"dynn_Sesuvo"
+		"dynn_Aokoshyo"
+	}
+	
+	male_names = {
+		Ava Aniya Amaya Aleiya Avesati Andavati Amanti Aravanta Arasa Anyaisha Adovanya Biya Bela Canama Catava Charati Donya Daiva Diya Dhamavi
+		Eva Evu Enyati Esmatiya Exati Eshaiye Fona Facima Hana Hati Hayamari Isri Inati Ishu Ishiyana Ivathiya Ivikasano Ino Idhahanya Jana Jamati
+		Jastiva Junolu Jurati Janashita Jeishatru Kari Kastimi Kanade Kivu Kiyeti Korana Kvesati Kishna Kosu Kavano Kacachita Keva Lana Layeti 
+		Lena Maya Maiati Mara Misa Niko Nikacadova Nirishayu Nivisteka Ninte Naniyamaki Nova Nera Ora Onamacovva Pela Piashanya Parvanto Puvatano
+		Raya Reya Rima Rana Roya Ruyati Reashanti Resmaka Ruyo Ritishi Rishi Rimate Seska Shakvi Saki Sati Siyanda Siyaika Suwati Svekatiska Simaxura
+		Sama Simotu Sora Sara Savaxari Sanashu Sushaivi Tama Taraya Tanyashava Tosuka Tora Thaviyenda Ukana Ura Ukaisuna Vita Vishnaviya Vasati Vatniya
+		Wara Xina Xenata Xiya Yaradachi Yovu Zia Zenari Zenovi Zana
+	}
+	female_names = {
+		Ava Aniya Amaya Aleiya Avesati Andavati Amanti Aravanta Arasa Anyaisha Adovanya Biya Bela Canama Catava Charati Donya Daiva Diya Dhamavi
+		Eva Evu Enyati Esmatiya Exati Eshaiye Fona Facima Hana Hati Hayamari Isri Inati Ishu Ishiyana Ivathiya Ivikasano Ino Idhahanya Jana Jamati
+		Jastiva Junolu Jurati Janashita Jeishatru Kari Kastimi Kanade Kivu Kiyeti Korana Kvesati Kishna Kosu Kavano Kacachita Keva Lana Layeti 
+		Lena Maya Maiati Mara Misa Niko Nikacadova Nirishayu Nivisteka Ninte Naniyamaki Nova Nera Ora Onamacovva Pela Piashanya Parvanto Puvatano
+		Raya Reya Rima Rana Roya Ruyati Reashanti Resmaka Ruyo Ritishi Rishi Rimate Seska Shakvi Saki Sati Siyanda Siyaika Suwati Svekatiska Simaxura
+		Sama Simotu Sora Sara Savaxari Sanashu Sushaivi Tama Taraya Tanyashava Tosuka Tora Thaviyenda Ukana Ura Ukaisuna Vita Vishnaviya Vasati Vatniya
+		Wara Xina Xenata Xiya Yaradachi Yovu Zia Zenari Zenovi Zana
+	}
+	
+	dynasty_of_location_prefix = "dynnp_no"
+	
+	patronym_suffix_male = "dynnpat_pref_sai"
+	patronym_suffix_female = "dynnpat_pref_sai"
+	always_use_patronym = no	
+
+	mercenary_names = {
+		{ name =  "AT_mercs_kacanali" }
+	}
+}

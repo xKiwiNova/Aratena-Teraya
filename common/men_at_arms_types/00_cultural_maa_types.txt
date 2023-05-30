@@ -1,0 +1,63 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+kacana_trackers = {
+	type = archers
+	
+	damage = 30
+	toughness = 15
+	pursuit = 0
+	screen = 5
+	
+	terrain_bonus = {
+		rainforest = { toughness = 6 screen = 5 }
+		forest = { toughness = 6 screen = 5 }
+		woodlands = { toughness = 6 screen = 5 }
+	}
+
+	counters = {
+		elephant_cavalry = 0.2
+		light_cavalry = 1
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = kacana_trackers_recruitment_cost }
+	low_maintenance_cost = { gold = kacana_trackers_low_maint_cost }
+	high_maintenance_cost = { gold = kacana_trackers_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = AT_archers
+}
+
+namsatiya = {
+	type = ranged
+	
+	damage = 25
+	toughness = 20
+	pursuit = 5
+	screen = 15
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 4 }
+		rainforest = { toughness = 6 screen = 5 }
+		forest = { toughness = 6 screen = 5 }
+		woodlands = { toughness = 6 screen = 5 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = namsatiya_recruitment_cost }
+	low_maintenance_cost = { gold = namsatiya_trackers_low_maint_cost }
+	high_maintenance_cost = { gold = namsatiya_trackers_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = AT_archers
+}
