@@ -1,0 +1,3 @@
+﻿l_english:
+ PORTRAIT_MODIFIER_custom_clothes_AT_kacana_male_clothes_commoner:1 "Kacana commoner"
+ PORTRAIT_MODIFIER_custom_clothes_AT_kacana_female_clothes_commoner:1 "$PORTRAIT_MODIFIER_custom_clothes_AT_kacana_male_clothes_commoner$"

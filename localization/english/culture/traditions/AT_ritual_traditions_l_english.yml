@@ -1,0 +1,5 @@
+﻿l_english:
+AT_tradition_mound_builders_name:0 "Mound Builders"
+AT_tradition_mound_builders_desc:0 "This culture is characterized by the construction of extensive earthworks which serve vital social, cultural, and political functions."
+culture_parameter_can_construct_mounds:0 "Enables the construction of mounds in [holdings|E]"
+not_egalitarian_communal_or_spiritual:0 "This culture's [ethos|e] is not communal, egalitarian, or spiritual"

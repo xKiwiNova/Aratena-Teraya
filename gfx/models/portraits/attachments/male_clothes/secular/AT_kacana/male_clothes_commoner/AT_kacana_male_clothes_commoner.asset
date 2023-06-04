@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "AT_kacana_male_clothes_commoner_mesh"
+	file = "AT_kacana_male_clothes_commoner.mesh"
+
+
+	meshsettings = {
+		name = "AT_kacana_male_clothes_commonerShape"
+		index = 0
+		texture_diffuse = "AT_kacana_male_clothes_commoner_diffuse.dds"
+		texture_normal = "AT_kacana_male_clothes_commoner_normal.dds"
+		texture_specular = "AT_kacana_male_clothes_commoner_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "AT_kacana_male_clothes_commoner_entity"
+	pdxmesh = "AT_kacana_male_clothes_commoner_mesh"
+}

@@ -1,0 +1,4 @@
+AT_kacana_male_clothes_commoner = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = AT_kacana_male_clothes_commoner_entity }
+}

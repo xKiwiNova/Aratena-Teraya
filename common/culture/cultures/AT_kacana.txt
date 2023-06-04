@@ -5,7 +5,7 @@ AT_kacanya = {
 	ethos = ethos_egalitarian
 	heritage = AT_heritage_kacana
 	language = AT_language_kacanali
-	martial_tradition = martial_custom_equal
+	martial_custom = martial_custom_equal
 	name_list = AT_name_list_kacanali			# How to name things. You can have multiple of these entries. The first one is the primary one and will be used for things like prefixes where it doesn't make much sense to randomize between the lists
 
 	character_modifier = {	# Modifier effects on all characters of the culture
@@ -29,8 +29,8 @@ AT_mana = {
 	traditions = { tradition_wetlanders tradition_sacred_groves tradition_medicinal_plants }
 	ethos = ethos_communal
 	heritage = AT_heritage_kacana
-	language = AT_langugae_kacanali
-	martial_tradition = martial_custom_equal
+	language = AT_language_kacanali
+	martial_custom = martial_custom_equal
 	name_list = AT_name_list_kacanali			# How to name things. You can have multiple of these entries. The first one is the primary one and will be used for things like prefixes where it doesn't make much sense to randomize between the lists
 
 	character_modifier = {	# Modifier effects on all characters of the culture
@@ -53,8 +53,8 @@ AT_kora = {
 	traditions = { tradition_sacred_groves AT_tradition_mound_builders tradition_collective_lands}
 	ethos = ethos_spiritual
 	heritage = AT_heritage_kacana
-	language = AT_langugae_kacanali
-	martial_tradition = martial_custom_equal
+	language = AT_language_kacanali
+	martial_custom = martial_custom_equal
 	name_list = AT_name_list_kacanali			# How to name things. You can have multiple of these entries. The first one is the primary one and will be used for things like prefixes where it doesn't make much sense to randomize between the lists
 
 	character_modifier = {	# Modifier effects on all characters of the culture
